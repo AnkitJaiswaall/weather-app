@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.header {
+  background-color: rgba(0, 0, 0);
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.navigation {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.navigation a {
+  margin-right: 20px;
+}
+
+.search-form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search-form form {
+  display: flex;
+}
+
+.search-form input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.search-form button {
+  padding: 8px 15px;
+  height: 35px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  color: gray;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 350px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(112, 128, 144);
+  font-size: 50px;
+  margin-top: -300px;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-image: url("../images/sky.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-forecast {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 100px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+  margin-bottom: 20px;
+}
+
+.weather-info h3 {
+  margin-top: 0;
+}
+
+.loading {
+  text-align: center;
+}
+
+.toggle {
+  margin-bottom: 10px;
+}
+
+.hourly-weather {
+  margin-top: 10px;
+}

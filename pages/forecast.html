@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App - Forecast</title>
+    <script src="../javascript/forecast.js" defer></script>
+
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Weather App</h1>
+      <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="forecast.html">Forecast</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+
+    <div class="weather-forecast">
+      <h1 style="color: black">Weather Forecast of</h1>
+      <div class="toggle">
+        <label>Temperature Unit: </label>
+        <input
+          type="radio"
+          name="unit"
+          value="celsius"
+          checked
+          onchange="updateTemperatureUnit()"
+        />
+        Celsius
+        <input
+          type="radio"
+          name="unit"
+          value="fahrenheit"
+          onchange="updateTemperatureUnit()"
+        />
+        Fahrenheit
+      </div>
+      <div class="weather-info" id="weather-info">
+        <div class="loading">Loading...</div>
+      </div>
+    </div>
+  </body>
+</html>
