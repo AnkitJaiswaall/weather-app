@@ -1,5 +1,5 @@
 Step 1: Clone the Repository
-To access the solution, please clone the repository using the following link: [GitHub Link]
+To access the solution, please clone the repository using the following link: https://github.com/AnkitJaiswaall/weather-app.git
 
 Step 2: Open the Project in a Code Editor
 Once the repository is cloned, open the project in your preferred code editor such as Visual Studio Code or any other.
