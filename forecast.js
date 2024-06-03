@@ -62,7 +62,7 @@ function fetchWeather(location) {
 
 async function showHourlyWeather(date, location, index) {
   const apiKey = "0ca46f0020d8490383682947241704";
-  const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&dt=${date}&hour=0-23`;
+  const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&dt=${date}&hour=0-23`;
 
   try {
     const response = await fetch(apiUrl);
