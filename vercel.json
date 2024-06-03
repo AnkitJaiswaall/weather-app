@@ -1,9 +1,9 @@
 {
     
     "routes": [
-      { "source": "/", "destination": "/index.html" },
-      { "source": "/about", "destination": "/about.html" },
-      { "source": "/forecast", "destination": "/forecast.html" }
+      { "src": "/", "destination": "/index.html" },
+      { "src": "/about", "destination": "/about.html" },
+      { "src": "/forecast", "destination": "/forecast.html" }
     ]
   }
   
