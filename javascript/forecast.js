@@ -26,7 +26,7 @@ window.onload = function () {
 };
 
 function fetchWeather(location) {
-  const apiKey = "83eadddcde1845ffa92180608240304";
+  const apiKey = "0ca46f0020d8490383682947241704";
   const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=5&aqi=yes&alerts=yes`;
 
   document.getElementById("weather-info").innerHTML =
@@ -61,7 +61,7 @@ function fetchWeather(location) {
 }
 
 async function showHourlyWeather(date, location, index) {
-  const apiKey = "83eadddcde1845ffa92180608240304";
+  const apiKey = "0ca46f0020d8490383682947241704";
   const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&dt=${date}&hour=0-23`;
 
   try {
