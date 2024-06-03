@@ -27,7 +27,7 @@ window.onload = function () {
 
 function fetchWeather(location) {
   const apiKey = "0ca46f0020d8490383682947241704";
-  const apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=5&aqi=yes&alerts=yes`;
+  const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=5&aqi=yes&alerts=yes`;
 
   document.getElementById("weather-info").innerHTML =
     '<div class="loading">Loading...</div>';
